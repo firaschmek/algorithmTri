@@ -55,29 +55,18 @@
 
         <!-- ========================================== -->
         <!-- JAXB Required for Java 11+ (DSS Library)  -->
+        <!-- DSS 5.x uses javax.xml.bind (NOT jakarta) -->
         <!-- ========================================== -->
         <dependency>
-            <groupId>jakarta.xml.bind</groupId>
-            <artifactId>jakarta.xml.bind-api</artifactId>
-            <version>4.0.0</version>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.1</version>
         </dependency>
 
         <dependency>
             <groupId>org.glassfish.jaxb</groupId>
             <artifactId>jaxb-runtime</artifactId>
-            <version>4.0.3</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.sun.xml.bind</groupId>
-            <artifactId>jaxb-core</artifactId>
-            <version>4.0.3</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.sun.xml.bind</groupId>
-            <artifactId>jaxb-impl</artifactId>
-            <version>4.0.3</version>
+            <version>2.3.9</version>
         </dependency>
 
         <!-- SAAJ for SOAP -->
