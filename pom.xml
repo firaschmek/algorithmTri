@@ -162,6 +162,13 @@
             <version>${dss.version}</version>
         </dependency>
 
+        <!-- DSS Utils implementation (required by DSS core) -->
+        <dependency>
+            <groupId>eu.europa.ec.joinup.sd-dss</groupId>
+            <artifactId>dss-utils-apache-commons</artifactId>
+            <version>${dss.version}</version>
+        </dependency>
+
         <!-- Jakarta Annotations -->
         <dependency>
             <groupId>jakarta.annotation</groupId>
